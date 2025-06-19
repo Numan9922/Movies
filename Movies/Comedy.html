@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comedy</title>
+  <link rel="stylesheet" type="text/css" href="download/style/style.css">
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <style>
+    img[alt="www.000webhost.com"] {display: none;}
+  </style>
+</head>
+<body>
+
+
+
+
+
+ 
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="Index.html">Home</a>
+<hr>
+
+<div class="dropdown">
+  <button class="dropbtn">All Movies</button>
+  <div class="dropdown-content">
+    <a href="Tv Showes.html">Tv Showes</a>
+    <a href="South Hindi Dubbed.html">South Hindi Dubbed</a>
+    <a href="Animation.html">Animation</a>
+   <a href="Comedy.html">Comedy</a>
+
+  </div>
+</div><hr>
+  <a href="Bollywood.html">Bollywood</a><hr>
+  <a href="Hollywood.html">Hollywood</a><hr>
+  <a href="#">Services</a><hr>
+  <a href="#">About</a><hr>
+  <a href="#">Contact</a><hr>
+
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+
+
+
+
+
+
+
+
+  <div class="head" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1>McLaren Movies</h1>
+    <h4>Collection Of All Movies</h4>
+
+    <div class="search-box">
+      <input id="searchbar" onkeyup="search_movies()" type="text"
+        name="search" placeholder="Search Your Favourate Movie Here..." class="search">
+      <button type="submit" class="submit" value="search" name="submit" > Search</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <dir class="example"><a href="#"><h2>How To Download Movie?</h2></a></dir>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul class="all-movies" id="all-movies">
+ <!---New Release Movie--->
+
+
+
+
+
+     <li class="three-movies">
+  <div class="movie">
+    <a href="download/The Sleepover (2020).html"><img src="download\style\error\img\The Sleepover (2020).jpg" class="poster"><h6 class="title">The Sleepover (2020) </h6> </a>
+    </div>
+  </li>
+
+
+   
+     <li class="three-movies">
+  <div class="movie">
+    <a href="download/Fearless (2020).html"><img src="download\style\error\img\Fearless (2020).jpg" class="poster"><h6 class="title">Fearless (2020) </h6> </a>
+    </div>
+  </li>
+    
+    <li class="three-movies">
+  <div class="movie">
+    <a href="download/The Kapil Sharma Show (All Episodes 2020).html"><img src="download\style\error\img\The Kapil Sharma Show (All Episodes 2020).jpg" class="poster"><h6 class="title">The Kapil Sharma Show (All Episodes 2020) </h6> </a>
+    </div>
+  </li>
+
+   
+
+
+
+</ul> 
+
+
+<script data-ad-client="ca-pub-4158934932788494" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+    
+<p align="center"> </p>
+<p align="center">@ copyright 2020</p>
+
+
+
+
+
+  <script>
+        
+        // JavaScript code 
+function search_movies() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('three-movies'); 
+    
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="list-item";              
+        } 
+    } 
+} 
+
+
+
+    </script> 
+
+
+
+
+
+
+
+</body>
+</html>
+
+
